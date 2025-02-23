@@ -1,0 +1,17 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Welcome to Secthor Forge" %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>  <!-- Display translated text from views.py -->
+        <p>{% trans "Forging the Future of Digital Excellence!" %}</p>
+    </div>
+</body>
+</html>
