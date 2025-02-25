@@ -1,6 +1,16 @@
 from django.shortcuts import render
-from django.utils.translation import gettext as _  # Import translation function
 
 def home(request):
-    message = _("Welcome to Secthor Forge!")  # This is a translatable string
-    return render(request, 'main/home.html', {"message": message})
+    return render(request, 'main/home.html')
+
+def services(request):
+    return render(request, 'main/services.html')
+
+def about(request):
+    return render(request, 'main/about.html')
+
+def contact(request):
+    return render(request, 'main/contact.html')
+
+def experience(request):
+    return render(request, 'main/experience.html')

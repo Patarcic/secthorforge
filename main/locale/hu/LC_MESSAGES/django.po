@@ -19,5 +19,5 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .\main\views.py:5
-msgid "Welcome to Secthor Forge!"
-msgstr "Üdvözöljük a Secthor Forge-ban!"
+msgid "Welcome to Secthor`s Forge!"
+msgstr "Üdvözöljük a Secthor Kovácsműhelyben!"

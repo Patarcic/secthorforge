@@ -1,0 +1,23 @@
+{% extends "main/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<main class="services-content">
+    <h1>{% trans "Our Services" %}</h1>
+    <section id="services" style="font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px;">
+        <div style="margin-bottom: 20px;">
+            <h3>Web Development</h3>
+            <p>We create <strong>simple, effective websites</strong> with a sleek, tailored to your brand’s identity.</p>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <h3>QA Testing</h3>
+            <p>We provide thorough <strong>QA testing</strong> for websites, ensuring stability, security, and a bug-free experience. From manual testing to automated solutions, we help developers refine their applications.</p>
+        </div>
+        <div>
+            <h3>Digital Marketing & SEO</h3>
+            <p>Boost your <strong>online presence</strong> with SEO strategies, content marketing, and digital solutions to help you reach your target audience.</p>
+        </div>
+    </section>
+</main>
+{% endblock %}
+

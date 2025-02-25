@@ -1,0 +1,41 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+<h1>Our Experience</h1>
+<p>We have years of experience in QA testing, web development, and security solutions.</p>
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="container">
+        <div>
+            <img src="{% static 'main/images/html5-brands.svg' %}" alt="HTML5 logo" />
+            <h3>HTML5</h3>
+            <p>Semantic markup, professional website creation, accessibility, SEO-friendly structure.</p>
+        </div>
+        <div>
+            <img src="{% static 'main/images/css3-alt-brands.svg' %}" alt="CSS3 logo" />
+            <h3>CSS3</h3>
+            <p>Professional appearance, modern, responsive style, maintainable architecture, Flexbox, Grid.</p>
+        </div>
+        <div>
+            <img src="{% static 'main/images/js-square-brands.svg' %}" alt="JavaScript logo" />
+            <h3>JavaScript (ES2020)</h3>
+            <p>Modern, 2020s JavaScript, clean code.</p>
+        </div>
+        <div>
+            <img src="{% static 'main/images/react-brands.svg' %}" alt="React logo" />
+            <h3>React 17</h3>
+            <p>Modern React, hooks, development of complex web applications.</p>
+        </div>
+        <div>
+            <img src="{% static 'main/images/python.svg' %}" alt="Python logo" />
+            <h3>Python</h3>
+            <p>Build websites and software, automate tasks, and conduct data analysis.</p>
+        </div>
+        <div>
+            <img src="{% static 'main/images/ISTQB.png' %}" alt="ISTQB logo" />
+            <h3>ISTQB</h3>
+            <p>The International Software Testing Qualifications Board is a software testing certification board that operates internationally.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
